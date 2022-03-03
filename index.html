@@ -1,0 +1,289 @@
+<html>
+<title>Portfolio</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_inner">
+            <!-- vertical bar -->
+                <div class="vertical_bar">
+                    <div class="profile_info">
+                        <div class="img_holder">
+                            <img src="images/profile1.jpg" alt="profile_pic">
+                        </div>
+                        <p class="title">JUHI PATEL</p>
+                    </div>
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">
+                            <span class="icon"><i class="fas fa-home"></i></span> Home</button>
+                        <button class="tablinks" onclick="openCity(event, 'About Me')">
+                            <span class="icon"><i class="fas fa-file-alt"></i></span> About Me</button>
+                        <!-- <button class="tablinks" onclick="openCity(event, 'Portfolio')">
+                            <span class="icon"><i class="fas fa-chart-pie"></i></span> Portfolio</button> -->
+                        <button class="tablinks" onclick="openCity(event, 'Services & Skills')">
+                            <span class="icon"><i class="fas fa-user"></i></span> Services & Skills</button>
+                        <button class="tablinks" onclick="openCity(event, 'Contact')">
+                            <span class="icon"><i class="fas fa-cog"></i></span> Contact</button>
+                    </div>
+                    <div class="icons">
+                        <a target="_blank" href="https://linkedin.com/in/juhi-patel-926274137/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a target="" href="https://docs.google.com/document/d/1CbU3HfEtquIDxIys2xRpOkCKDfc9aVtX/edit?usp=
+                        sharing&ouid=117242845963427426390&rtpof=true&sd=true">
+                            <i class="fa fa-file-text"></i>
+                        </a>
+                        <a href="#"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+                <!-- horizontal bar -->
+                <div class="main_container">
+                    <div class="top_bar">
+                        <!-- <div class="hamburger">
+                            <i class="fas fa-bars"></i>
+                        </div> -->
+                        <div class="logo">Portfolio</div>
+                    </div>
+                    <div class="container">
+                        <!-- Home Page Content -->
+                        <div id="Home" class="tabcontent">
+                            <div class="content">
+                                <h3>I'm Juhi Patel </h3>
+                                <p>and I'm a <span class="typing"></span></p>
+                            </div>
+                            <div class="content">
+                                <p>I believe that developer should always have craving to learn new technologies and 
+                                    I am one of them. Building easy to use, user – friendly website and application is 
+                                    truly a passion of mine and I am confident that I would be proved excellent addition.</p>
+                            </div>
+                            <div class="content">
+                                <p>Passionate to build all aspects of the user interface for client-facing landing pages. 
+                                    Skilled in developing easy to use, user-friendly, responsive websites.
+
+                                    “ The best thing about a picture is that it never changes, even when the 
+                                    people in it do”</p>
+                                    <h3>-Andy Warhol</h3>
+                            </div>
+                        </div> 
+                        <!-- About Page Content -->
+                        <div id="About Me" class="tabcontent">
+                            <div class="content">
+                                <h3>My Story</h3>
+                                <p>I am currently a Computer Science graduate student 
+                                    at University of Texas Arlington. I believe that 
+                                    developer should always have craving to learn new 
+                                    technologies and I am one of them. Building easy to use, 
+                                    user – friendly website and application is truly a passion of mine
+                                     and I am confident that I would be proved excellent addition.</p>
+                            </div>
+                            <div class="content">
+                                <p>I have 2 and half years of experience as Web Designer using 
+                                    HTML, CSS, JavaScript, WordPress, Bootstrap and familiar with 
+                                    all the UI/UX tools like Figma, Sketch library/symbols and 
+                                    also familiar with logo design, I have experience in designing
+                                     responsive web design while I was working . I always keep myself 
+                                     motivated to learn new modern web pages and design them in 
+                                     user-friendly manner.</p>
+                            </div>
+                            <div class="content">
+                                <table>
+                                    <tr>
+                                      <th><h3>Education</h3></th>
+                                      <th><h3>Experience</h3></th>
+                                    </tr>
+                                    <tr>
+                                      <td>Bachelor of Computer Applications<br>
+                                        2012-2015<br>Ahmedabad University</td>
+                                      <td>Web Design Intern at Ravkoo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Master of Computer Applications<br>
+                                            2015-2017<br>Ahmedabad University</td>
+                                        <td>Web Developer at HypeMath.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Master of Computer Science<br>
+                                            2020-2022<br>University of Texas at Arlington</td>
+                                        <td>Web Developer at WeTalkRadio.com</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div> 
+                        <!-- Portfolio Page Content -->
+                        <!-- <div id="Portfolio" class="tabcontent">
+                            <h3>Portfolio</h3>
+                            <p>I am a graduate student pursuing masters in Computer Science and 
+                                experienced in leveraging agile frameworks to provide a robust synopsis
+                                 for high level overviews. Iterative approaches to corporate strategy 
+                                 foster collaborative thinking to further the overall value proposition.
+                            </p><br>
+                                    <div class="portfolio-content">
+                                        <div class="icons">
+                                            <div class="row">
+                                                <i class="fa fa-file-text"></i>
+                                                <div class="info">
+                                                    <div class="head">Resume</div>
+                                                    <div class="sub-title">https://docs.google.com/document/d/1CbU3HfEtquIDxIys2xRpOkCKDfc9aVtX/edit?usp=
+                                                        sharing&ouid=117242845963427426390&rtpof=true&sd=true</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>  -->
+                        <!-- Services Page Content -->
+                        <div id="Services & Skills" class="tabcontent">
+                            <!-- services -->
+                            <div class="serv-content">
+                                <div class="card">
+                                    <div class="box">
+                                        <i class="fas fa-paint-brush"></i>
+                                        <div class="text">Ui/Ux Design</div>
+                                        <p> Landing Pages,  User Flow, WireFraming, Prototyping, Web Design, Mobile App Design,
+                                            Advertising</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="box">
+                                        <i class="fas fa-code"></i>
+                                        <div class="text">Development</div>
+                                        <p> HTML/CSS, JavaScript, Animation, WordPress, React, BootStrap</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="box">
+                                        <i class="fas fa-chart-line"></i>
+                                        <div class="text">Illustration</div>
+                                        <p> Icon Design, Illustration Guide, Illustration Set, Motion Graphic, Responsive Design</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- skills -->
+                            <div class="skills-content">
+                                <h3>My Skills</h3>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>HTML</p>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="line html"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>CSS</p>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line css"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>JavaScript</p>
+                                        <span>60%</span>
+                                    </div>
+                                    <div class="line js"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>PHP</p>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line php"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>MySQL</p>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="line mysql"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>WordPress</p>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="line mysql"></div>
+                                </div>
+                                <div class="bars">
+                                    <div class="info">
+                                        <p>BootStrap</p>
+                                        <span>82%</span>
+                                    </div>
+                                    <div class="line mysql"></div>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- Contact Page Content -->
+                        <div id="Contact" class="tabcontent">
+                            <div class="contact-content">
+                                    <h2 class="text">Get in Touch</h2>
+                                    <p>This is portfolio of Juhi Patel feel free to get in touch 
+                                        with her for any web development projects.</p><br><br>
+                                    <div class="icons">
+                                        <div class="row">
+                                            <i class="fas fa-phone"></i>
+                                            <div class="info">
+                                                <div class="head">Contact Number</div>
+                                                <div class="sub-title">+1(469)-(970)-0701</div> 
+                                            </div>
+                                        </div><br>
+                                        <div class="row">
+                                            <i class="fas fa-envelope"></i>
+                                            <div class="info">
+                                                <div class="head">Email</div>
+                                                <div class="sub-title">juhipatel41@gmail.com<br>
+                                                     jdp3249@mavs.uta.edu</div>
+                                            </div>
+                                        </div><br>
+                                        <div class="row">
+                                            <i class="fab fa-linkedin"></i>
+                                            <div class="info">
+                                                <div class="head">linkedin</div>
+                                                <div class="sub-title">https://linkedin.com/in/juhi-patel-926274137/</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-- JS -->
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+// typing text animation script
+var typed = new Typed(".typing", {
+        strings: ["Web Developer" , "UI/UX Developer" , "Mobile App Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+</script>
+</body>
+</html>
